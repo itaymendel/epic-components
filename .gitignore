@@ -1,0 +1,6 @@
+node_modules
+.bit
+.eslint
+.prettier.cjs
+tsconfig.json
+.eslintrc.json
