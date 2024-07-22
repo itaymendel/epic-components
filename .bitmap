@@ -12,9 +12,16 @@
     "ui/button": {
         "name": "ui/button",
         "scope": "itaymendel.epic-components",
-        "version": "1.0.0",
+        "version": "da5db61d52246c604310f32356d53ce3f8f7a6ec",
         "mainFile": "index.ts",
         "rootDir": "epic-components/ui/button"
     },
-    "$schema-version": "17.0.0"
+    "$schema-version": "17.0.0",
+    "_bit_lane": {
+        "id": {
+            "name": "button-style-update",
+            "scope": "itaymendel.epic-components"
+        },
+        "exported": true
+    }
 }
