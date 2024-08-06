@@ -35,7 +35,9 @@ jobs:
       uses: bit-tasks/init@v1
 
     - name: Bit Checkout Lane
-      run: bit lane import ${{ github.event.inputs.lane_name }}
+      run: |
+        bit lane import ${{ github.event.inputs.lane_name }}
+        bit init --reset-lane-new
 
     - name: Commit back changes
       run: |
